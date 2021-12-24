@@ -1,0 +1,57 @@
+.Product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #a4c2f4;
+  width: 15rem;
+  max-width: 15rem;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+}
+
+.productsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ProductEssentials {
+  width: 10rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.Product div {
+  margin: 10px;
+}
+
+.productImage > img {
+  object-fit: contain;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.addBtn {
+  background-color: #b6d7a8;
+  padding: 10px 20px;
+}
+
+.remBtn {
+  background-color: tomato;
+  padding: 10px 20px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.removeProduct {
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+}

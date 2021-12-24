@@ -1,0 +1,28 @@
+.addForm > input {
+  background-color: #a4c2f4;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.addHeading {
+  text-align: center;
+}
+
+.submitWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.addForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submitBtn {
+  background-color: #b6d7a8;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 15px;
+}

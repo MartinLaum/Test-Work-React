@@ -1,0 +1,9 @@
+.CartProducts {
+  padding: 20px 10px;
+  background-color: #a4c2f4;
+  position: absolute;
+  right: 10rem;
+  top: 3rem;
+  border-radius: 20px;
+  border: 2px solid black;
+}
